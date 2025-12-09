@@ -1,0 +1,24 @@
+    <!doctype html>
+    <html lang="pt-BR">
+    <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contato — A&A Advogados</title><link rel="stylesheet" href="assets/styles.css"></head>
+    <body>
+      <header class="topbar">
+        <div class="brand"><img src="assets/logo.png" alt="A&A Advogados"></div>
+        <nav><ul><li><a href="index.html">Página Inicial</a></li><li><a href="quem-somos.html">Quem Somos</a></li><li><a href="especialidades.html">Especialidades</a></li><li><a href="contato.html">Contatos</a></li><li><a href="blog.html">Blog</a></li><li><a class="btn-whatsapp" href="https://wa.me/5551996241083">💬 WhatsApp</a></li></ul></nav>
+      </header>
+      <main class="container" style="padding:28px 16px">
+        <h2>Contato</h2>
+<p>Preencha o formulário abaixo ou use o botão do WhatsApp.</p>
+<form onsubmit="event.preventDefault(); alert('Simulação: formulário enviado. Configure backend para envio real.');" style="max-width:720px">
+  <label>Nome: <input style="width:100%;padding:10px;border-radius:6px;border:1px solid #ddd" required></label><br><br>
+  <label>E-mail: <input type="email" style="width:100%;padding:10px;border-radius:6px;border:1px solid #ddd" required></label><br><br>
+  <label>Mensagem: <textarea style="width:100%;padding:10px;border-radius:6px;border:1px solid #ddd" rows="6" required></textarea></label><br><br>
+  <button style="padding:12px 18px;border-radius:8px;background:#000;color:#fff;border:none">Enviar por e-mail</button>
+  <a style="margin-left:12px;padding:12px 18px;border-radius:8px;background:#25D366;color:#fff;text-decoration:none" href="https://wa.me/5551996241083?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta." target="_blank">Enviar por WhatsApp</a>
+</form>
+
+      </main>
+      <footer class="footer"><div class="inner"><div>© <span id="ano2"></span> A&A Advogados</div><div>contato@aeaadvogados.com.br</div></div></footer>
+    <script>document.getElementById('ano2').textContent=new Date().getFullYear();</script>
+    </body>
+    </html>
