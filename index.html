@@ -79,22 +79,58 @@
 </section>
 
 
-<footer style="background:#000; padding:35px 0; text-align:center; color:#bfbfbf; font-size:15px;">
-    <div style="max-width:1200px; margin:auto;">
-        <div style="max-width:1200px;margin:0 auto;padding:18px 16px;color:#bfbfbf">© 
-           <span id="ano"></span> A&amp;A Advogados — contato@alexmoreiraadvogados.com.br — (51) 9 9624-1083</div>
-        <div style="margin-bottom:10px;">
-            © 2024 A&A Advogados
+<footer style="background:#000; padding:50px 0; color:#bfbfbf;">
+    <div style="max-width:1300px; margin:auto; display:flex; flex-wrap:wrap; gap:40px; align-items:flex-start; justify-content:center;">
+
+        <!-- COLUNA DE INFORMAÇÕES -->
+        <div style="flex:1; min-width:320px; max-width:480px;">
+            
+            <h3 style="color:#fff; margin-bottom:20px;">CONTATOS</h3>
+
+            <p style="line-height:1.7;">
+                Atendimento presencial e virtual<br>
+                Segunda à sexta das 9h às 17h<br><br>
+
+                <strong>Telefone / WhatsApp:</strong> (51) 99624-1083<br>
+                <strong>E-mail:</strong> contato@alexmoreiraadvogado.com.br<br>
+                <strong>Endereço:</strong><br>
+                R. Gen. Câmara, 10 – Centro, Viamão – RS, 94435-000
+            </p>
+
+            <p style="margin:20px 0 10px;">Nos siga nas redes sociais:</p>
+
+            <div style="display:flex; gap:14px;">
+                <a href="#"><img src="assets/instagram.png" width="32"></a>
+                <a href="#"><img src="assets/facebook.png" width="32"></a>
+                <a href="https://wa.me/5551996241083"><img src="assets/whatsapp.png" width="32"></a>
+                <a href="#"><img src="assets/linkedin.png" width="32"></a>
+            </div>
         </div>
 
-        <div style="margin-bottom:10px;">
-            Política de Privacidade
+        <!-- COLUNA DO MAPA -->
+        <div style="flex:1; min-width:320px; max-width:520px;">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.0793295658206!2d-51.0276473!3d-30.0826084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519796536f2f8a3%3A0x4edcd36f02a63c09!2sR.%20Gen.%20C%C3%A2mara%2C%2010%20-%20Centro%2C%20Viam%C3%A3o%20-%20RS!5e0!3m2!1spt-BR!2sbr!4v1700000000000"
+                width="100%" 
+                height="300" 
+                style="border:0; border-radius:12px;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
         </div>
 
-        <div style="color:#d4b472; font-weight:500;">
-            Desenvolvido por Rodrigo Franco
-        </div>
+    </div>
+
+    <!-- COPYRIGHT / DESENVOLVIDO -->
+    <div style="text-align:center; margin-top:35px; color:#bfbfbf;">
+        © <span id="ano-footer"></span> A&A Advogados — Todos os direitos reservados<br>
+        <span style="color:#d4b472; font-weight:600;">Desenvolvido por Rodrigo Franco</span>
     </div>
 </footer>
+
+<script>
+    document.getElementById("ano-footer").innerText = new Date().getFullYear();
+</script>
+
 <script src="assets/scripts.js"></script>
 </main></body></html>
